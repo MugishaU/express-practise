@@ -1,4 +1,4 @@
-const r_form = document.getElementById("reverse_form");
+// const r_form = document.getElementById("reverse_form");
 const result = document.getElementById("result");
 const m_form = document.getElementById("meme_form");
 
@@ -34,4 +34,7 @@ m_form.addEventListener("submit", (event) => {
       result.textContent = data;
     })
     .catch(console.warn);
+
+  m_form.style.display = "none";
+  document.getElementById("img_box").style.visibility = "visible";
 });

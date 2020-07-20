@@ -10,18 +10,25 @@ img {
   width: 100%;
 }
 
-.img_box {
+#img_box {
   border: black solid 1px;
   background-color: black;
   width: 100%;
+  visibility: hidden;
 }
+
+/* #img_box,
+#sponge,
+#result {
+  display: none;
+} */
 
 @media (min-width: 700px) {
   .img {
     width: 700px;
   }
 
-  .img_box {
+  #img_box {
     border: black solid 1px;
     background-color: black;
     width: 700px;
